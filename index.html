@@ -1,0 +1,701 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+
+    <!-- my css -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+
+    <!-- My JavaScript -->
+    <link rel="script" href="js/script.js">
+
+    <!-- my icon -->
+    <link rel="icon" href="https://jkt48.com/new3/img/jkt48logo.jpg">
+
+    <title>JKT48 Fan Web</title>
+
+  </head>
+  <body>
+      <!-- script -->
+    <script src="js/jquery.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js" integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT" crossorigin="anonymous"></script>
+    <script>
+      $(document) .ready(function(){
+        $(".owl-carousel").owlCarousel();
+      })
+    </script>
+    <script src="js/script.js"></script>
+
+    <!-- end of script -->
+
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+      <script src="/__/firebase/8.6.8/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="/__/firebase/8.6.8/firebase-analytics.js"></script>
+
+<!-- Initialize Firebase -->
+<script src="/__/firebase/init.js"></script>
+
+
+    <!-- nav -->
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-danger shadow">
+        <div class="container">
+          <a class="navbar-brand" href="#">JKT48 Fan Web</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto" >
+              <li class="nav-item ">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#Members">Members</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#Events">Event</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#Ticket">Ticket</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#Shop">Shop</a>
+              </li>
+              <li>
+                <a class="btn btn-primary" href="https://www.jkt48.com/" role="button">Sign Up</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    <!-- end of nav -->
+
+    <!-- jumbotron -->
+    <div id="carouselExampleCaptions" class="carousel slide text-center" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4" aria-label="Slide 5"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="https://jkt48.com/images/banner.reqhour2021-id.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>JKT48</h5>
+            <p>AKB48'S FIRST OVERSEAS GROUP OUTSIDE JAPAN BASED IN JAKARTA, INDONESIA</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="https://jkt48.com/images/banner.fanclub2021-id.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>JKT48</h5>
+            <p>AKB48'S FIRST OVERSEAS GROUP OUTSIDE JAPAN BASED IN JAKARTA, INDONESIA</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="https://jkt48.com/images/banner.22nd-single.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>JKT48</h5>
+            <p>AKB48'S FIRST OVERSEAS GROUP OUTSIDE JAPAN BASED IN JAKARTA, INDONESIA</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="https://jkt48.com/images/banner.home.rapsodi.married.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>JKT48</h5>
+            <p>AKB48'S FIRST OVERSEAS GROUP OUTSIDE JAPAN BASED IN JAKARTA, INDONESIA</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="https://jkt48.com/images/banner.home.rapsodi.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>JKT48</h5>
+            <p>AKB48'S FIRST OVERSEAS GROUP OUTSIDE JAPAN BASED IN JAKARTA, INDONESIA</p>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+    <script>
+      var myCarousel = document.querySelector('#myCarousel')
+      var carousel = new bootstrap.Carousel(myCarousel, {
+      interval: 100,
+      wrap: false,
+      Touch: true
+       })
+    </script>
+    <!-- end of jumbotron -->
+
+    <!-- news -->
+    <section id="news">
+              <div class="container">
+                <div class="owl-carousel owl-theme">
+                  <div class="ms-2 me-2">
+                    <div class="card">
+                      <img src="img/news (1).jpg" alt="" class="card-img-top">
+                    </div>
+                 </div>
+                 <div class="ms-2 me-2">
+                  <div class="card">
+                    <img src="img/news (2).jpg" alt="" class="card-img-top">
+                  </div>
+                 </div>
+                 <div class="ms-2 me-2">
+                  <div class="card">
+                    <img src="img/news (3).jpg" alt="" class="card-img-top">
+                  </div>
+                </div>
+                <div class="ms-2 me-2">
+                  <div class="card">
+                    <img src="img/news (1).jpg" alt="" class="card-img-top">
+                  </div>
+               </div>
+               <div class="ms-2 me-2">
+                <div class="card">
+                  <img src="img/news (2).jpg" alt="" class="card-img-top">
+                </div>
+               </div>
+               <div class="ms-2 me-2">
+                <div class="card">
+                  <img src="img/news (3).jpg" alt="" class="card-img-top">
+                </div>
+              </div>
+              </div>
+        </section>
+
+        <script>
+          $(".owl-carousel").owlCarousel({
+            autoplay: true,
+            autoplayhoverpause: true,
+            autoplaytimeout: 120,
+            items: 4,
+            loop: true,
+            })
+        </script>
+    <!-- end of news -->
+
+    <!-- now showing -->
+  <section id="show">
+    <div class="container text-center">
+      <div class="row">
+        <h2 style="font-family: 'Courier New', Courier, monospace;">Now Showing</h2>
+      </div>
+      <div class="row">
+        <div class="col">
+          <a href="https://www.jkt48.com/theater/schedule/id/2294?lang=id"><div class="card" style="width: 18rem;">
+            <img src="https://pbs.twimg.com/media/Ew20TwjVgAg3eLx.jpg" class="card-img" alt="...">
+           </a>  
+            <div class="card-body">
+              <p class="card-text text-center"> Renai Kenshi Jourei <br> Aturan Anti Cinta </p>
+            </div>
+          </div>
+       
+        </div>
+        <div class="col">
+          <div class="card" style="width: 18rem;">
+            <a href="https://www.jkt48.com/theater/schedule/id/2296?lang=id">
+            <img src="https://pbs.twimg.com/media/E281fDFVoAI_G-k.jpg" class="card-img" alt="...">
+            </a>
+            <div class="card-body">
+              <p class="card-text text-center"> Seishun Girls <br> Gadis Gadis Remaja </p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card" style="width: 18rem;">
+            <a href="https://www.jkt48.com/theater/schedule/id/2293?lang=id">
+            <img src="https://s-light.tiket.photos/t/01E25EBZS3W0FY9GTG6C42E1SE/rsfit19201280gsm/events/2021/05/24/7bdecb83-21e3-41e3-b2b4-9a691ec8a3ee-1621847527485-c61fe3279a780dca0c6b5bbc1fa85a63.jpg" class="card-img" alt="...">
+            </a>
+            <div class="card-body">
+              <p class="card-text text-center"> Seifuku No Me <br> Tunas di Balik Seragam</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#a2d9ff" fill-opacity="1" d="M0,224L21.8,213.3C43.6,203,87,181,131,170.7C174.5,160,218,160,262,176C305.5,192,349,224,393,197.3C436.4,171,480,85,524,64C567.3,43,611,85,655,106.7C698.2,128,742,128,785,149.3C829.1,171,873,213,916,213.3C960,213,1004,171,1047,165.3C1090.9,160,1135,192,1178,218.7C1221.8,245,1265,267,1309,277.3C1352.7,288,1396,288,1418,288L1440,288L1440,0L1418.2,0C1396.4,0,1353,0,1309,0C1265.5,0,1222,0,1178,0C1134.5,0,1091,0,1047,0C1003.6,0,960,0,916,0C872.7,0,829,0,785,0C741.8,0,698,0,655,0C610.9,0,567,0,524,0C480,0,436,0,393,0C349.1,0,305,0,262,0C218.2,0,175,0,131,0C87.3,0,44,0,22,0L0,0Z"></path></svg>
+    <!-- end of now showing -->
+
+    <!-- members -->
+    <br><br>
+    <section class="Members" id="#Members">
+      <h1 class="text-center"> Members </h1>
+      <br>
+        <div class="container ">
+             <div class="owl-carousel owl-theme">
+              <div class="ms-2 me-2">
+                <div class="card">
+                  <img src="https://static.wikia.nocookie.net/akb48/images/0/03/Adzana_SHOWROOM.jpg/revision/latest?cb=20210402135912" alt="">
+                  <div class="card-bod text-center">
+                    <h5 class="card-tittle">Adzana Shaliha</h5>
+                  </div>
+                </div>
+              </div>
+              <div class="ms-2 me-2">
+                <div class="card">
+                  <img src="https://static.wikia.nocookie.net/akb48/images/9/9f/Amirah_SHOWROOM.jpg/revision/latest/scale-to-width-down/240?cb=20210402140137" alt="">
+                  <div class="card-bod text-center">
+                    <h5 class="card-tittle">Amirah Fatin</h5>
+                  </div>
+                </div>
+              </div>
+              <div class="ms-2 me-2">
+                <div class="card">
+                  <img src="https://static.wikia.nocookie.net/akb48/images/2/28/Angelina_Christy_SHOWROOM.jpg/revision/latest/scale-to-width-down/240?cb=20210402140320" alt="">
+                  <div class="card-bod text-center">
+                    <h5 class="card-tittle">Angelina Christy</h5>
+                  </div>
+                </div>
+              </div>
+              <div class="ms-2 me-2">
+                <div class="card">
+                  <img src="https://static.wikia.nocookie.net/akb48/images/9/92/Aninditha_SHOWROOM.jpg/revision/latest/scale-to-width-down/240?cb=20210402140240" alt="">
+                  <div class="card-bod text-center">
+                    <h5 class="card-tittle">Anindhita Rahma</h5>
+                  </div>
+                </div>
+              </div>
+              <div class="ms-2 me-2">
+                <div class="card">
+                  <img src="https://static.wikia.nocookie.net/akb48/images/b/b3/Ariella_SHOWROOM.jpg/revision/latest/scale-to-width-down/240?cb=20210402140414" alt="">
+                  <div class="card-bod text-center">
+                    <h5 class="card-tittle">Ariella Callista</h5>
+                  </div>
+                </div>
+              </div>
+              <div class="ms-2 me-2">
+                <div class="card">
+                  <img src="https://static.wikia.nocookie.net/akb48/images/3/33/Zee_SHOWROOM.jpg/revision/latest/scale-to-width-down/240?cb=20210402140458" alt="">
+                  <div class="card-bod text-center">
+                    <h5 class="card-tittle">Azizi Asadel</h5>
+                  </div>
+                </div>
+              </div>
+              <div class="ms-2 me-2">
+                <div class="card">
+                  <img src="https://static.wikia.nocookie.net/akb48/images/c/cd/Cindy_SHOWROOM.jpg/revision/latest/scale-to-width-down/240?cb=20210402140553" alt="">
+                  <div class="card-bod text-center">
+                    <h5 class="card-tittle">Cindy Hapsari</h5>
+                  </div>
+                </div>
+              </div>
+              <div class="ms-2 me-2">
+                <div class="card">
+                  <img src="https://static.wikia.nocookie.net/akb48/images/8/88/Cornelia_SHOWROOM.jpg/revision/latest/scale-to-width-down/240?cb=20210402140630" alt="">
+                  <div class="card-bod text-center">
+                    <h5 class="card-tittle">Cornelia Vanisa</h5>
+                  </div>
+                </div>
+              </div>
+              <div class="ms-2 me-2">
+                <div class="card">
+                  <img src="https://static.wikia.nocookie.net/akb48/images/0/07/Dhea_SHOWROOM.jpg/revision/latest/scale-to-width-down/240?cb=20210402140740" alt="">
+                  <div class="card-bod text-center">
+                    <h5 class="card-tittle">Dhea Angelia</h5>
+                  </div>
+                </div>
+              </div>
+              <div class="ms-2 me-2">
+                <div class="card">
+                  <img src="https://static.wikia.nocookie.net/akb48/images/8/83/Eve_SHOWROOM.jpg/revision/latest/scale-to-width-down/240?cb=20210402140822" alt="">
+                  <div class="card-bod text-center">
+                    <h5 class="card-tittle">Eve Antoinette</h5>
+                  </div>
+                </div>
+              </div>
+              <div class="ms-2 me-2">
+                <div class="card">
+                  <img src="https://static.wikia.nocookie.net/akb48/images/d/de/Febriola_SHOWROOM.jpg/revision/latest/scale-to-width-down/240?cb=20210402140906" alt="">
+                  <div class="card-bod text-center">
+                    <h5 class="card-tittle">Febriola Sinambela </h5>
+                  </div>
+                </div>
+              </div>
+              <div class="ms-2 me-2">
+                <div class="card">
+                  <img src="https://static.wikia.nocookie.net/akb48/images/1/1d/Feni_SHOWROOM.jpg/revision/latest/scale-to-width-down/240?cb=20210402140946" alt="">
+                  <div class="card-bod text-center">
+                    <h5 class="card-tittle">Feni Fitriyanti</h5>
+                  </div>
+                </div>
+              </div>
+              <div class="ms-2 me-2">
+                <div class="card">
+                  <img src="https://static.wikia.nocookie.net/akb48/images/1/16/Fiony_SHOWROOM.jpg/revision/latest/scale-to-width-down/240?cb=20210402141035" alt="">
+                  <div class="card-bod text-center">
+                    <h5 class="card-tittle">Fiony Alveria</h5>
+                  </div>
+                </div>
+              </div>
+              <div class="ms-2 me-2">
+                <div class="card">
+                  <img src="https://static.wikia.nocookie.net/akb48/images/e/e9/Flora_SHOWROOM.jpg/revision/latest/scale-to-width-down/240?cb=20210402141120" alt="">
+                  <div class="card-bod text-center">
+                    <h5 class="card-tittle">Flora Shafiqa</h5>
+                  </div>
+                </div>
+              </div>
+              <div class="ms-2 me-2">
+                <div class="card">
+                  <img src="https://static.wikia.nocookie.net/akb48/images/9/9b/Fransisca_SHOWROOM.jpg/revision/latest/scale-to-width-down/240?cb=20210402141231" alt="">
+                  <div class="card-bod text-center">
+                    <h5 class="card-tittle">Fransisca Saraswati
+                      </h5>
+                  </div>
+                </div>
+              </div>
+              <div class="ms-2 me-2">
+                <div class="card">
+                  <img src="https://static.wikia.nocookie.net/akb48/images/f/fa/Freya_SHOWROOM.jpg/revision/latest/scale-to-width-down/240?cb=20210402141339" alt="">
+                  <div class="card-bod text-center">
+                    <h5 class="card-tittle">Freya Jayawardana</h5>
+                  </div>
+                </div>
+              </div>
+              <div class="ms-2 me-2">
+                <div class="card">
+                  <img src="https://static.wikia.nocookie.net/akb48/images/1/17/Gabriela_SHOWROOM.jpg/revision/latest/scale-to-width-down/240?cb=20210402141415" alt="">
+                  <div class="card-bod text-center">
+                    <h5 class="card-tittle">Gabriela Margareth</h5>
+                  </div>
+                </div>
+              </div>
+              <div class="ms-2 me-2">
+                <div class="card">
+                  <img src="https://static.wikia.nocookie.net/akb48/images/9/94/Gita_SHOWROOM.jpg/revision/latest/scale-to-width-down/240?cb=20210402141510" alt="">
+                  <div class="card-bod text-center">
+                    <h5 class="card-tittle">Gita Sekar</h5>
+                  </div>
+                </div>
+              </div>
+              <div class="ms-2 me-2">
+                <div class="card">
+                  <img src="https://static.wikia.nocookie.net/akb48/images/4/4d/Helisma_SHOWROOM.jpg/revision/latest/scale-to-width-down/240?cb=20210402141605" alt="">
+                  <div class="card-bod text-center">
+                    <h5 class="card-tittle">Helisma Putri</h5>
+                  </div>
+                </div>
+              </div>
+              <div class="ms-2 me-2">
+                <div class="card">
+                  <img src="https://static.wikia.nocookie.net/akb48/images/0/08/Indah_SHOWROOM.jpg/revision/latest/scale-to-width-down/240?cb=20210402141823" alt="">
+                  <div class="card-bod text-center">
+                    <h5 class="card-tittle">Indah Cahya</h5>
+                  </div>
+                </div>
+              </div>
+              <div class="ms-2 me-2">
+                <div class="card">
+                  <img src="https://static.wikia.nocookie.net/akb48/images/1/1e/Jessica_Chandra_SHOWROOM.jpg/revision/latest/scale-to-width-down/240?cb=20210402142040" alt="">
+                  <div class="card-bod text-center">
+                    <h5 class="card-tittle">Jessica Chandra</h5>
+                  </div>
+                </div>
+              </div>
+              <div class="ms-2 me-2">
+                <div class="card">
+                  <img src="https://static.wikia.nocookie.net/akb48/images/e/e8/Jesslyn_SHOWROOM.jpg/revision/latest/scale-to-width-down/240?cb=20210402142141" alt="">
+                  <div class="card-bod text-center">
+                    <h5 class="card-tittle">Jesslyn Callista</h5>
+                  </div>
+                </div>
+              </div>
+              <div class="ms-2 me-2">
+                <div class="card">
+                  <img src="https://static.wikia.nocookie.net/akb48/images/9/95/Jinan_Safa_SHOWROOM.jpg/revision/latest/scale-to-width-down/240?cb=20210402141956" alt="">
+                  <div class="card-bod text-center">
+                    <h5 class="card-tittle">Jinan Safa</h5>
+                  </div>
+                </div>
+              </div>
+              <div class="ms-2 me-2">
+                <div class="card">
+                  <img src="https://static.wikia.nocookie.net/akb48/images/1/1b/Kathrina_SHOWROOM.jpg/revision/latest/scale-to-width-down/240?cb=20210402142232" alt="">
+                  <div class="card-bod text-center">
+                    <h5 class="card-tittle">Kathrina Irene</h5>
+                  </div>
+                </div>
+              </div>
+              <div class="ms-2 me-2">
+                <div class="card">
+                  <img src="https://static.wikia.nocookie.net/akb48/images/9/92/Lulu_SHOWROOM.jpg/revision/latest/scale-to-width-down/240?cb=20210402142349" alt="">
+                  <div class="card-bod text-center">
+                    <h5 class="card-tittle">Lulu Salsabila</h5>
+                  </div>
+                </div>
+              </div>
+              <div class="ms-2 me-2">
+                <div class="card">
+                  <img src="https://static.wikia.nocookie.net/akb48/images/3/3f/Marsha_SHOWROOM.jpg/revision/latest/scale-to-width-down/240?cb=20210402142441" alt="">
+                  <div class="card-bod text-center">
+                    <h5 class="card-tittle">Marsha Lenathea</h5>
+                  </div>
+                </div>
+              </div>
+              <div class="ms-2 me-2">
+                <div class="card">
+                  <img src="https://static.wikia.nocookie.net/akb48/images/5/50/Mutiara_Azzahra_SHOWROOM.jpg/revision/latest/scale-to-width-down/240?cb=20210402142651" alt="">
+                  <div class="card-bod text-center">
+                    <h5 class="card-tittle">Mutiara Azzahra</h5>
+                  </div>
+                </div>
+              </div>
+              <div class="ms-2 me-2">
+                <div class="card">
+                  <img src="https://static.wikia.nocookie.net/akb48/images/e/e5/Reva_Fidela_SHOWROOM.jpg/revision/latest/scale-to-width-down/240?cb=20210402142832" alt="">
+                  <div class="card-bod text-center">
+                    <h5 class="card-tittle">Reva Fidela</h5>
+                  </div>
+                </div>
+              </div>
+              <div class="ms-2 me-2">
+                <div class="card">
+                  <img src="https://static.wikia.nocookie.net/akb48/images/b/b0/Shani_Indira_SHOWROOM.jpg/revision/latest/scale-to-width-down/240?cb=20210402143035" alt="">
+                  <div class="card-bod text-center">
+                    <h5 class="card-tittle">Shani Indira</h5>
+                  </div>
+                </div>
+              </div>
+              <div class="ms-2 me-2">
+                <div class="card">
+                  <img src="https://static.wikia.nocookie.net/akb48/images/7/72/Shania_Gracia_SHOWROOM.jpg/revision/latest/scale-to-width-down/240?cb=20210402143240" alt="">
+                  <div class="card-bod text-center">
+                    <h5 class="card-tittle">Shania Gracia</h5>
+                  </div>
+                </div>
+              </div>
+              <div class="ms-2 me-2">
+                <div class="card">
+                  <img src="https://static.wikia.nocookie.net/akb48/images/6/63/Celine_SHOWROOM.jpg/revision/latest/scale-to-width-down/240?cb=20210402143442" alt="">
+                  <div class="card-bod text-center">
+                    <h5 class="card-tittle">Tan Zhi Hui Celine</h5>
+                  </div>
+                </div>
+              </div>
+              <div class="ms-2 me-2">
+                <div class="card">
+                  <img src="https://static.wikia.nocookie.net/akb48/images/d/d9/Yessica_SHOWROOM.jpg/revision/latest/scale-to-width-down/240?cb=20210402143523" alt="">
+                  <div class="card-bod text-center">
+                    <h5 class="card-tittle">Yessica Tamara</h5>
+                  </div>
+                </div>
+              </div>
+              <div class="ms-2 me-2">
+                <div class="card">
+                  <img src="https://static.wikia.nocookie.net/akb48/images/4/4b/Ara_SHOWROOM.jpg/revision/latest/scale-to-width-down/240?cb=20210402143702" alt="">
+                  <div class="card-bod text-center">
+                    <h5 class="card-tittle">Zahra Nur</h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+           </div>
+           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#a2d9ff" fill-opacity="1" d="M0,224L21.8,213.3C43.6,203,87,181,131,170.7C174.5,160,218,160,262,176C305.5,192,349,224,393,197.3C436.4,171,480,85,524,64C567.3,43,611,85,655,106.7C698.2,128,742,128,785,149.3C829.1,171,873,213,916,213.3C960,213,1004,171,1047,165.3C1090.9,160,1135,192,1178,218.7C1221.8,245,1265,267,1309,277.3C1352.7,288,1396,288,1418,288L1440,288L1440,320L1418.2,320C1396.4,320,1353,320,1309,320C1265.5,320,1222,320,1178,320C1134.5,320,1091,320,1047,320C1003.6,320,960,320,916,320C872.7,320,829,320,785,320C741.8,320,698,320,655,320C610.9,320,567,320,524,320C480,320,436,320,393,320C349.1,320,305,320,262,320C218.2,320,175,320,131,320C87.3,320,44,320,22,320L0,320Z"></path></svg>
+          </section>
+        <script>
+          $(".owl-carousel").owlCarousel({
+            autoplay: true,
+            autoplayhoverpause: true,
+            autoplaytimeout: 50,
+            items: 3,
+            nav: true,
+            loop: true,
+            })
+        </script>
+    <!-- end of members -->
+
+    <!-- video -->
+    <section id="video">
+      <div class="container">
+        <div class="row">
+          <h2>Videos</h2>
+        </div>
+        <br>
+        <div class="row">
+          <div class="col">
+            <div class="yt-main">
+              <iframe src="https://www.youtube.com/embed/5V19CBzU9nk?rel=0" title="YouTube video" allowfullscreen></iframe>
+            </div>
+          </div>
+          <div class="col">
+            <div class="yt-main">
+              <iframe src="https://www.youtube.com/embed/Xu1wA7CfhQg?rel=0" title="YouTube video" allowfullscreen></iframe>
+            </div>
+          </div>
+          <div class="col">
+            <div class="yt-main">
+              <iframe src="https://www.youtube.com/embed/QjQnWaJQSi4?rel=0" title="YouTube video" allowfullscreen></iframe>
+            </div>
+            <br>
+          </div>
+          <div class="col">
+            <div class="yt-main">
+              <iframe src="https://www.youtube.com/embed/HTDepBvFZQ0?rel=0" title="YouTube video" allowfullscreen></iframe>
+            </div>
+          </div>
+          <div class="col">
+            <div class="yt-main">
+              <iframe src="https://www.youtube.com/embed/b5kf7iUnfOI?rel=0" title="YouTube video" allowfullscreen></iframe>
+            </div>
+          </div>
+          <div class="col">
+            <div class="yt-main">
+              <iframe src="https://www.youtube.com/embed/DL7z19KoFAM?rel=0" title="YouTube video" allowfullscreen></iframe>
+            </div>
+          </div>
+          <div class="text-end">
+            <p>And many others</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#a2d9ff" fill-opacity="1" d="M0,224L21.8,213.3C43.6,203,87,181,131,170.7C174.5,160,218,160,262,176C305.5,192,349,224,393,197.3C436.4,171,480,85,524,64C567.3,43,611,85,655,106.7C698.2,128,742,128,785,149.3C829.1,171,873,213,916,213.3C960,213,1004,171,1047,165.3C1090.9,160,1135,192,1178,218.7C1221.8,245,1265,267,1309,277.3C1352.7,288,1396,288,1418,288L1440,288L1440,0L1418.2,0C1396.4,0,1353,0,1309,0C1265.5,0,1222,0,1178,0C1134.5,0,1091,0,1047,0C1003.6,0,960,0,916,0C872.7,0,829,0,785,0C741.8,0,698,0,655,0C610.9,0,567,0,524,0C480,0,436,0,393,0C349.1,0,305,0,262,0C218.2,0,175,0,131,0C87.3,0,44,0,22,0L0,0Z"></path></svg>
+    <!-- end of video -->
+
+    <!-- Merch -->
+    <section class="Merch" id="#Merch">
+      <h1 class="text-center"> Merch </h1>
+      <br>
+        <div class="container">
+             <div class="owl-carousel owl-theme">
+              <div class="ms-2 me-2">
+                <div class="card">
+                  <img src="https://jkt48.com/upload/news/605d7551213f1.jpg" alt="">
+                  <div class="card-body text-center">
+                    <h5 class="card-tittle">JKT48 PhotoPack <br> Darashinai AIshikatta </h5>
+                  </div>
+                </div>
+              </div>
+              <div class="ms-2 me-2">
+                <div class="card">
+                  <img src="https://jkt48.com/upload/news/605d73ce6b09b.jpg" alt="">
+                  <div class="card-body text-center">
+                    <h5 class="card-tittle">JKT48 T-Shirt <br> Darashinai AIshikatta</h5>
+                  </div>
+                </div>
+              </div>
+              <div class="ms-2 me-2">
+                <div class="card">
+                  <img src="https://jkt48.com/upload/news/60379c6aaf626.jpg" alt="">
+                  <div class="card-body text-center">
+                    <h5 class="card-tittle">JKT48 PhotoPack <br> Thank You For The Memories</h5>
+                  </div>
+                </div>
+              </div>
+              <div class="ms-2 me-2">
+                <div class="card">
+                  <img src="https://jkt48.com/assets/rapsodi/image/dlcard.png" alt="">
+                  <div class="card-body text-center">
+                    <h5 class="card-tittle">JKT48 PhotoPack <br>Rapsodi Edition</h5>
+                  </div>
+                </div>
+              </div>
+              <div class="ms-2 me-2">
+                <div class="card">
+                  <img src="https://jkt48.com/images/high-tension/cover-hightension-tokopedia.jpg" alt="">
+                  <div class="card-body text-center">
+                    <h5 class="card-tittle">JKT48 CD <br> High Tension</h5>
+                  </div>
+                </div>
+              </div>
+              <div class="ms-2 me-2">
+                <div class="card">
+                  <img src="https://jkt48.com/new3/img/jkt48logo.jpg" alt="">
+                  <div class="card-body text-center">
+                    <h5 class="card-tittle" > <br> Click For More <br>   </h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+        </div>
+    </section>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#a2d9ff" fill-opacity="1" d="M0,224L21.8,213.3C43.6,203,87,181,131,170.7C174.5,160,218,160,262,176C305.5,192,349,224,393,197.3C436.4,171,480,85,524,64C567.3,43,611,85,655,106.7C698.2,128,742,128,785,149.3C829.1,171,873,213,916,213.3C960,213,1004,171,1047,165.3C1090.9,160,1135,192,1178,218.7C1221.8,245,1265,267,1309,277.3C1352.7,288,1396,288,1418,288L1440,288L1440,320L1418.2,320C1396.4,320,1353,320,1309,320C1265.5,320,1222,320,1178,320C1134.5,320,1091,320,1047,320C1003.6,320,960,320,916,320C872.7,320,829,320,785,320C741.8,320,698,320,655,320C610.9,320,567,320,524,320C480,320,436,320,393,320C349.1,320,305,320,262,320C218.2,320,175,320,131,320C87.3,320,44,320,22,320L0,320Z"></path></svg>
+     
+    <script>
+      $(".owl-carousel").owlCarousel({
+        autoplay: true,
+        autoplayhoverpause: true,
+        autoplaytimeout: 100,
+        items: 3,
+        nav: true,
+        loop: true,
+        })
+    </script>
+
+    <!-- end of merch -->
+
+    <!-- theatre -->
+    <section id="theatre" style="background: url(https://jkt48.com/new3/img/theater.jpg); background-size: cover;">
+      <br><br><br><br><br><br><br><br>
+      <div class="text-center">
+       <h1>JKT48 THEATER</h1>
+      </div>
+      <div class="text-xl-center">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.2961413457892!2d106.80190981476915!3d-6.224628595494098!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f14e5ad79c69%3A0x4cba8ea123da1241!2sJKT48%20Theater!5e0!3m2!1sid!2sid!4v1624030759617!5m2!1sid!2sid" width="300" height="300" ></iframe>
+      </div>
+      <br><br><br><br><br><br><br><br>
+    </section>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#a2d9ff" fill-opacity="1" d="M0,224L21.8,213.3C43.6,203,87,181,131,170.7C174.5,160,218,160,262,176C305.5,192,349,224,393,197.3C436.4,171,480,85,524,64C567.3,43,611,85,655,106.7C698.2,128,742,128,785,149.3C829.1,171,873,213,916,213.3C960,213,1004,171,1047,165.3C1090.9,160,1135,192,1178,218.7C1221.8,245,1265,267,1309,277.3C1352.7,288,1396,288,1418,288L1440,288L1440,0L1418.2,0C1396.4,0,1353,0,1309,0C1265.5,0,1222,0,1178,0C1134.5,0,1091,0,1047,0C1003.6,0,960,0,916,0C872.7,0,829,0,785,0C741.8,0,698,0,655,0C610.9,0,567,0,524,0C480,0,436,0,393,0C349.1,0,305,0,262,0C218.2,0,175,0,131,0C87.3,0,44,0,22,0L0,0Z"></path></svg>
+    
+     <!-- end of theatre -->
+
+    <!-- found us on -->
+    <section id="partners">
+      <div class="tengah">
+          <div class="kolom text-center">
+              <h2>Get In Touch With Us</h2>
+            </div>
+<br><br>
+          <div class="partner-list text-center">
+              <div class="kartu-partner">
+                <a href="https://twitter.com/officialJKT48?s=20"> <img src="https://download.logo.wine/logo/Twitter/Twitter-Logo.wine.png" alt="">
+              </div>
+              <div class="kartu-partner">
+                <a href="https://www.youtube.com/user/jkt48"> <img src="https://www.logo.wine/a/logo/YouTube/YouTube-Icon-Full-Color-Logo.wine.svg" alt=""></a>
+              </div>
+              <div class="kartu-partner">
+                <a href="https://www.instagram.com/jkt48/?hl=id"> <img src="https://www.logo.wine/a/logo/Instagram/Instagram-Glyph-Color-Logo.wine.svg" alt=""></a>
+              </div>
+              <div class="kartu-partner">
+                <a href="https://www.facebook.com/official.JKT48"> <img src="https://www.logo.wine/a/logo/Facebook/Facebook-f_Logo-Blue-Logo.wine.svg" alt=""></a>
+              </div>
+              
+          </div>
+      </div>
+  </section>
+</div>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#a2d9ff" fill-opacity="1" d="M0,224L21.8,213.3C43.6,203,87,181,131,170.7C174.5,160,218,160,262,176C305.5,192,349,224,393,197.3C436.4,171,480,85,524,64C567.3,43,611,85,655,106.7C698.2,128,742,128,785,149.3C829.1,171,873,213,916,213.3C960,213,1004,171,1047,165.3C1090.9,160,1135,192,1178,218.7C1221.8,245,1265,267,1309,277.3C1352.7,288,1396,288,1418,288L1440,288L1440,320L1418.2,320C1396.4,320,1353,320,1309,320C1265.5,320,1222,320,1178,320C1134.5,320,1091,320,1047,320C1003.6,320,960,320,916,320C872.7,320,829,320,785,320C741.8,320,698,320,655,320C610.9,320,567,320,524,320C480,320,436,320,393,320C349.1,320,305,320,262,320C218.2,320,175,320,131,320C87.3,320,44,320,22,320L0,320Z"></path></svg>
+    <!-- end of found us -->
+
+    <!--  akhiran -->
+    <section id="akhir">
+      <div class="text-center">
+      <p>Made With love by Yanuar Eka Pramudya <br> Copyright © 2021 Yanuar Eka Pramudya All Rights is Not Reserved</p>
+      </div>
+    </section>  
+    <!-- end of akhiran -->
+
+</body>
+</html>

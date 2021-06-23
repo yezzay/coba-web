@@ -1,0 +1,81 @@
+
+.carouselExampleCaptions{
+    padding-top: 20px;
+}
+
+html{
+    position: relative;
+}
+
+.jumbotron{
+    padding-top: 2rem;
+    background-color: #e2edff;
+}
+.jumbotron .h1{
+    color: #fff;
+}
+
+/* carousel */
+.owl-prev{
+    left: -30px;
+}
+.owl-next{
+    right: -30px;
+}
+.owl-prev, .owl-next{
+    position: absolute;
+    top: 90px;
+}
+.owl-prev span, .owl-next span{
+    font-size: 80px;
+    color: black;
+}
+
+/* news */
+#news{
+    background-color: #a2d9ff;
+}
+.card-img-top{
+   height: 10vh;
+   width: 100%;
+   object-fit: cover;
+}
+
+/* show */
+#show{
+    background-color: #a2d9ff;
+}
+
+/* video */
+#video{
+    background-color: #a2d9ff;
+}
+
+/* merch */
+#Merch{
+    background-color: #a2d9ff;
+}
+
+/* akhir */
+#akhir{
+    background-color: #a2d9ff;
+}
+
+/* get in touch */
+
+.partner-list {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.kartu-partner {
+    width: 20%;
+    margin: 0 auto;
+}
+
+.kartu-partner img {
+    width: 150px;
+  
+}
